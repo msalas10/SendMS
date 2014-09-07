@@ -1,0 +1,229 @@
+* {
+}
+
+body {
+	background-color: #f1f1f1;
+	margin: 0;
+}
+
+/* Globar Variables */
+
+h1 {
+	color: #f1f1f1;
+	font-family: Helvetica;
+ 	font-weight: lighter;
+	text-align: center;
+	font-size: 24px;
+}
+
+h2 {
+	color: #f1f1f1;
+	font-family: Helvetica;
+ 	font-weight: lighter;
+	text-align: center;
+	font-size: 21px;
+}
+
+h3 {
+	color: #aaaaaa;
+	font-family: Helvetica;
+ 	font-weight: lighter;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 18px;
+}
+
+.text_field textarea {
+	background-color: #f1f1f1;
+	color: #d2d2d2;
+	border: 1px solid #d2d2d2;
+	outline: none;
+	resize: none;
+	font-size: 21px;
+	font-family: Helvetica;
+ 	font-weight: lighter;
+ 	padding-top: 15px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	height: 60px;
+}
+
+textarea::-webkit-input-placeholder {
+    color:  #aaaaaa;
+}
+
+/* Header */
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #2d2d2d;
+}
+
+/* Body*/
+
+.this_body {
+	padding-top: 80px;
+}
+
+.center {
+	width: 100%;
+	height: 800px;
+	background-color: #f1f1f1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	height: 100%;
+	border-right: 1px solid #222222;
+	border-left: 1px solid #222222;
+}
+
+.this_body .center .container {
+	background-color: white;
+	border: 1px solid #d2d2d2;
+}
+
+/* Search */
+
+.search {
+	float: left;
+	width: 600px;
+	height: 760px;
+	border-right: 1px solid #d2d2d2;
+	padding: 20px;
+}
+
+.search_input {
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.search_input .text_field textarea {
+	width: 480px;
+	float: left;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.search_input textarea[placeholder] {
+	color: #0266C8;
+}
+
+.search_botton {
+	background-color: #0266C8;
+	width: 120px;
+	height: 60px;
+	float: right;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.search_botton:hover {
+	background-color: #1155cc;
+}
+
+.search_botton h2 {
+	margin-top: 18px;
+}
+
+.music_sources {
+	height: 60px;
+}
+
+.music_sources li {
+	display: inline-block;
+	height: 60px;
+	width: 199px;
+	border: 1px solid #d2d2d2;
+	background-color: #f1f1f1;
+	margin-right: -5px;
+}
+
+.music_sources li:hover {
+	background-color: #F2B50F;
+	border: 1px solid #F2B50F;
+}
+
+.music_sources li:hover h3 {
+	color: white;
+}
+
+.music_sources li:first-child {
+	border-top-left-radius: 10px;
+}
+
+.music_sources li:last-child {
+	border-top-right-radius: 10px;
+}
+
+.music_sources .selected {
+	background-color: white;
+	color: #d2d2d2;
+	border-bottom: none;
+}
+
+
+
+.search_results {
+	border: 1px solid #d2d2d2;
+	border-top: none;
+	height: 620px;
+	width: 599px;
+	position: relative;
+}
+
+
+/* sms */
+
+.sms {
+	float: right;
+	width: 278px;
+	height: 100%;
+	padding: 20px;
+}
+
+.sms .text_field textarea {
+	height: 60px;
+	width: 278px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.sms .text_field .message textarea{
+	height: 120px;
+}
+
+.sms textarea[placeholder] {
+	color: #00933B;
+}
+
+.send_sms {
+	background-color: #00933B;
+	height: 80px;
+	border-radius: 10px;
+	margin-top: 40px;
+	border: 1px solid #00933B;
+}
+
+.send_sms h1 {
+	margin-top: 25px;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+#footer .container {
+	border: 1px solid #d2d2d2;
+}
