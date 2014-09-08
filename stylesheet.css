@@ -61,6 +61,25 @@ textarea::-webkit-input-placeholder {
     color:  #aaaaaa;
 }
 
+input {
+	background-color: #f1f1f1;
+	color: #d2d2d2;
+	border: 1px solid #d2d2d2;
+	outline: none;
+	resize: none;
+	font-size: 21px;
+	font-family: Helvetica;
+ 	font-weight: lighter;
+ 	padding-top: 15px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	height: 60px;
+}
+
+input::-webkit-input-placeholder {
+    color:  #aaaaaa;
+}
+
 /* Header */
 
 #header {
@@ -114,14 +133,14 @@ textarea::-webkit-input-placeholder {
 	margin-bottom: 20px;
 }
 
-.search_input .text_field textarea {
+.search_input .text_field input {
 	width: 480px;
 	float: left;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 
-.search_input textarea[placeholder] {
+.search_input input[placeholder] {
 	color: #0266C8;
 }
 
@@ -281,6 +300,16 @@ textarea::-webkit-input-placeholder {
 }
 
 .sms textarea[placeholder] {
+	color: #00933B;
+}
+
+.sms .text_field input {
+	height: 60px;
+	width: 278px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.sms input[placeholder] {
 	color: #00933B;
 }
 
