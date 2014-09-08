@@ -252,11 +252,11 @@ textarea::-webkit-input-placeholder {
 	margin-top: 23px;
 }
 
-.search_results_item .select_item:hover {
+.search_results_item:hover .select_item {
 	background-color: #F2B50F;
 }
 
-.search_results_item .select_item:hover h4 {
+.search_results_item:hover .select_item h4 {
 	color: white;
 }
 
